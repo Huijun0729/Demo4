@@ -1,5 +1,3 @@
-# Demo4
-
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -40,9 +38,9 @@ void determineWinner(Choice playerChoice, Choice computerChoice) {
 
     if (playerChoice == computerChoice) {
         cout << "It's a tie!" << endl;
-    } else if ((playerChoice == ROCK && computerChoice == PAPER) ||
-               (playerChoice == PAPER && computerChoice == SCISSORS) ||
-               (playerChoice == SCISSORS && computerChoice == ROCK)) {
+    } else if ((playerChoice == ROCK && computerChoice == SCISSORS) ||
+               (playerChoice == PAPER && computerChoice == ROCK) ||
+               (playerChoice == SCISSORS && computerChoice == PAPER)) {
         cout << "You win!" << endl;
     } else {
         cout << "You lose!" << endl;
