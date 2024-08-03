@@ -2,7 +2,6 @@
 #include <cstdlib>
 #include <ctime>
 
-default
 using namespace std;
 
 enum Choice { ROCK, PAPER, SCISSORS };
