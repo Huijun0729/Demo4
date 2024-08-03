@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -60,6 +59,9 @@ int main() {
         cout << "Do you want to play again? (y/n): ";
         cin >> playAgain;
     } while (playAgain == 'y' || playAgain == 'Y');
+
+    // Goodbye message when the user chooses not to play again
+    cout << "Goodbye!" << endl;
 
     return 0;
 }
