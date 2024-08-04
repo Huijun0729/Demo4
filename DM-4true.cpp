@@ -13,7 +13,7 @@ string getChoiceName(Choice choice) {
         case SCISSORS: return "Scissors";
         default: return "";
 
-enum Choice { rock, paper, SCISSORS, this is change  };
+enum Choice { ROCK, PAPER, SCISSORS, this is change  };
 
 string getChoiceName(Choice choice) {
     switch (choice) {
@@ -56,7 +56,7 @@ void determineWinner(Choice playerChoice, Choice computerChoice) {
         cout << "You lose!" << endl;
     }
 }
-ff
+
 int main() {
     srand(time(0));
 
