@@ -4,13 +4,13 @@
 
 using namespace std;
 
-enum Choice { ROCK, PAPER, SCISSORS };
+enum Choice { ROCK, PAPER, SCISSORS }; jgb
 
 string getChoiceName(Choice choice) {
     switch (choice) {
-        case ROCK: return "Rock";
-        case PAPER: return "Paper";
-        case SCISSORS: return "Scissors";
+        case ROCK: return "Rock";yy
+        case PAPER: return "Paper";hymyy
+        case SCISSORS: return "Scissors";nun h
         default: return "";
     }
 }
