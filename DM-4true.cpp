@@ -8,18 +8,18 @@ enum Choice { ROCK, PAPER, SCISSORS };
 
 string getChoiceName(Choice choice) {
     switch (choice) {
-        case ROCK: return "Rock";wrg3ergwrg
-        case PAPER: return "Paper";vfwvergeg
-        case SCISSORS: return "Scissors";rgqrgq3rg
+        case ROCK: return "Rock"
+        case PAPER: return "Paper"
+        case SCISSORS: return "Scissors"
         default: return "";
 
-enum Choice { ROCK, PAPER, SCISSORS };wrgq3rgerg
+enum Choice { ROCK, PAPER, SCISSORS };
 
 string getChoiceName(Choice choice) {
     switch (choice) {
-        case ROCK: return "Rock";rgergeg
-        case PAPER: return "Paper";wrfgqregqerge
-        case SCISSORS: return "Scissors";wfqr3geqrg
+        case ROCK: return "Rock";
+        case PAPER: return "Paper"
+        case SCISSORS: return "Scissors";
         default: return "";
 
     }
