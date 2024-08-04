@@ -13,7 +13,7 @@ string getChoiceName(Choice choice) {
         case SCISSORS: return "Scissors";
         default: return "";
 
-enum Choice { rock, paper, SCISSORS };
+enum Choice { rock, paper, SCISSORS, this is change  };
 
 string getChoiceName(Choice choice) {
     switch (choice) {
