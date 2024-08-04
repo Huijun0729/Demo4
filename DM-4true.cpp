@@ -4,14 +4,14 @@
 
 using namespace std;
 
-enum Choice { ROCK, PAPER, SCISSORS };
+enum Choice { ROCK, PAPER, SCISSORS };ngbfvdcsdvfbgnhmngbfvdc
 
 string getChoiceName(Choice choice) {
     switch (choice) {
-        case ROCK: return "Rock";
-        case PAPER: return "Paper";
-        case SCISSORS: return "Scissors";
-        default: return "";
+        case ROCK: return "Rock";jhgfds
+        case PAPER: return "Paper";gfdsdfghnn
+        case SCISSORS: return "Scissors";hgfdfghbnjhbgfddfvb
+        default: return "";hgbfvdfvgbngbfvds
     }
 }
 
