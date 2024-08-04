@@ -13,7 +13,7 @@ string getChoiceName(Choice choice) {
         case SCISSORS: return "Scissors";
         default: return "";
 
-enum Choice { ROCK, PAPER, SCISSORS, this is change  };
+enum Choice { ROCK, PAPER, SCISSORS,};
 
 string getChoiceName(Choice choice) {
     switch (choice) {
@@ -32,7 +32,7 @@ Choice getComputerChoice() {
 Choice getPlayerChoice() {
     int choice;
     while (true) {
-        cout << "Enter your choice (0 for Rock, 1 for Paper, 2 for Scissors): ";
+        cout << "Enter your choice (0 for Rock, 1 for Paper, 3 for Scissors): ";
         cin >> choice;
         if (choice >= 0 && choice <= 2) {
             return static_cast<Choice>(choice);
