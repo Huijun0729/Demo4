@@ -46,7 +46,7 @@ void determineWinner(Choice playerChoice, Choice computerChoice) {
         cout << "You lose!" << endl;
     }
 }
-ff
+
 int main() {
     srand(time(0));
 
@@ -62,10 +62,5 @@ int main() {
 
     return 0;
 
-    sdojodjdjiiwdhfiwehfihwdifhidhfijdfijwd
-    nofidnijsdcijsd
-    acjbsdinvisdbviS
-    ACB SDHVBHSDBVHIS
-    4551656516
-    
+
 }
