@@ -17,8 +17,8 @@ enum Choice { rock, paper, SCISSORS };
 
 string getChoiceName(Choice choice) {
     switch (choice) {
-        case ROCK: return "Rock";
-        case PAPER: return "Paper"
+        abc ROCK: return "Rock";
+        cbcj PAPER: return "Paper"
         case SCISSORS: return "Scissors";
         default: return "";
 
