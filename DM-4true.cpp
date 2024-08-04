@@ -12,6 +12,16 @@ string getChoiceName(Choice choice) {
         case PAPER: return "Paper";
         case SCISSORS: return "Scissors";
         default: return "";
+
+enum Choice { ROCK, PAPER, SCISSORS };
+
+string getChoiceName(Choice choice) {
+    switch (choice) {
+        case ROCK: return "Rock";
+        case PAPER: return "Paper";
+        case SCISSORS: return "Scissors";
+        default: return "";
+
     }
 }
 
@@ -61,6 +71,5 @@ int main() {
     } while (playAgain == 'y' || playAgain == 'Y');
 
     return 0;
-
 
 }
