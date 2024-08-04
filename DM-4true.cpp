@@ -4,14 +4,24 @@
 
 using namespace std;
 
-enum Choice { ROCK, PAPER, SCISSORS };ngbfvdcsdvfbgnhmngbfvdc
+enum Choice { ROCK, PAPER, SCISSORS };
 
 string getChoiceName(Choice choice) {
     switch (choice) {
-        case ROCK: return "Rock";jhgfds
-        case PAPER: return "Paper";gfdsdfghnn
-        case SCISSORS: return "Scissors";hgfdfghbnjhbgfddfvb
-        default: return "";hgbfvdfvgbngbfvds
+        case ROCK: return "Rock";
+        case PAPER: return "Paper";
+        case SCISSORS: return "Scissors";
+        default: return "";
+
+enum Choice { ROCK, PAPER, SCISSORS };
+
+string getChoiceName(Choice choice) {
+    switch (choice) {
+        case ROCK: return "Rock";
+        case PAPER: return "Paper";
+        case SCISSORS: return "Scissors";
+        default: return "";
+
     }
 }
 
@@ -61,11 +71,5 @@ int main() {
     } while (playAgain == 'y' || playAgain == 'Y');
 
     return 0;
-
-    sdojodjdjiiwdhfiwehfihwdifhidhfijdfijwd
-    nofidnijsdcijsd
-    acjbsdinvisdbviS
-    ACB SDHVBHSDBVHIS
-    4551656516
     
 }
