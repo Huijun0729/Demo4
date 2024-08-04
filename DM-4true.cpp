@@ -11,17 +11,7 @@ string getChoiceName(Choice choice) {
         case ROCK: return "Rock";
         case PAPER: return "Paper";
         case SCISSORS: return "Scissors";
-        default: return "";
-
-enum Choice { ROCK, PAPER, SCISSORS,};
-
-string getChoiceName(Choice choice) {
-    switch (choice) {
-        abc ROCK: return "Rock";
-        cbcj PAPER: return "Paper"
-        case SCISSORS: return "Scissors";
-        default: return "";
-
+        default: return ""; // Fixed closing brace
     }
 }
 
@@ -32,7 +22,7 @@ Choice getComputerChoice() {
 Choice getPlayerChoice() {
     int choice;
     while (true) {
-        cout << "Enter your choice (0 for Rock, 1 for Paper, 3 for Scissors): ";
+        cout << "Enter your choice (0 for Rock, 1 for Paper, 2 for Scissors): ";
         cin >> choice;
         if (choice >= 0 && choice <= 2) {
             return static_cast<Choice>(choice);
@@ -70,6 +60,10 @@ int main() {
         cin >> playAgain;
     } while (playAgain == 'y' || playAgain == 'Y');
 
+    // Goodbye message when the user chooses not to play again
+    if (playAgain == 'n' || playAgain == 'N') {
+        cout << "Goodbye!" << endl;
+    }
+
     return 0;
-    
 }
