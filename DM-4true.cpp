@@ -105,6 +105,7 @@ int main() {
     } while (playAgain == 'y' || playAgain == 'Y');
 
     rgethegtr
+    ffjf
 
 
     return 0;
