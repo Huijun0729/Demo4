@@ -95,6 +95,16 @@ int main() {
         cin >> playAgain;
     } while (playAgain == 'y' || playAgain == 'Y');
 
+     do {
+        Choice playerChoice = getPlayerChoice();
+        Choice computerChoice = getComputerChoice();
+        determineWinner(playerChoice, computerChoice);
+
+        cout << "Do you want to play again? (y/n): ";
+        cin >> playAgain;
+    } while (playAgain == 'y' || playAgain == 'Y');
+
+
     return 0;
 
 
