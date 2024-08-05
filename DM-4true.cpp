@@ -19,7 +19,7 @@ Choice getComputerChoice() {
     return static_cast<Choice>(rand() % 3);
 }
 
-Choice getPlayerChoice() {
+Choice getPlayerChoice() {'''
     int choice;
     while (true) {
         cout << "Enter your choice (0 for Rock, 1 for Paper, 2 for Scissors): ";
