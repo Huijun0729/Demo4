@@ -106,6 +106,8 @@ int main() {
 
     rgethegtr
     ffjf
+    456456
+    12312j
 
 
     return 0;
