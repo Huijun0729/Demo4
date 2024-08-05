@@ -11,7 +11,7 @@ string getChoiceName(Choice choice) {
         case ROCK: return "Rock";
         case PAPER: return "Paper";
         case SCISSORS: return "Scissors";
-        default: return ""; // Fixed closing brace
+        default: return "";
     }
 }
 
@@ -19,7 +19,7 @@ Choice getComputerChoice() {
     return static_cast<Choice>(rand() % 3);
 }
 
-Choice getPlayerChoice() {'''
+Choice getPlayerChoice() {
     int choice;
     while (true) {
         cout << "Enter your choice (0 for Rock, 1 for Paper, 2 for Scissors): ";
@@ -66,5 +66,4 @@ int main() {
     }
 
     return 0;
-
 }
