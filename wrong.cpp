@@ -59,6 +59,7 @@ int main() {
         cout << "Do you want to play again? (y/n): ";
         cin >> playAgain;
     } while (playAgain == 'y' || playAgain == 'Y');
+
     
     // Goodbye message when the user chooses not to play again
     if (playAgain == 'n' || playAgain == 'N') {
@@ -68,4 +69,8 @@ int main() {
     return 0;
     134567890
         45679
+
+
+    return 0;
+
 }
