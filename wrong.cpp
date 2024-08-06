@@ -52,7 +52,7 @@ int main() {
 char playAgain;
     do {
         Choice playerChoice = getPlayerChoice();
-        Choice computerChoice = getComputerChoice();
+        Choice computerChoice = getComputerChoice();sdfghjk
         determineWinner(playerChoice, computerChoice);
 
         cout << "Do you want to play again? (y/n): ";
