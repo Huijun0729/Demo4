@@ -66,4 +66,56 @@ int main() {
     }
 
     return 0;
+
+    return 0; 
+    
+    
+    do {
+        Choice playerChoice = getPlayerChoice();
+        Choice computerChoice = getComputerChoice();
+        determineWinner(playerChoice, computerChoice);
+
+        cout << "Do you want to play again? (y/n): ";
+        cin >> playAgain;
+    } while (playAgain == 'y' || playAgain == 'Y');
+
+    return 0;
+
+
+
+    do {
+        Choice playerChoice = getPlayerChoice();
+        Choice computerChoice = getComputerChoice();
+        determineWinner(playerChoice, computerChoice);
+
+        cout << "Do you want to play again? (y/n): ";
+        cin >> playAgain;
+    } while (playAgain == 'y' || playAgain == 'Y');
+
+     do {
+        Choice playerChoice = getPlayerChoice();
+        Choice computerChoice = getComputerChoice();
+        determineWinner(playerChoice, computerChoice);
+
+        cout << "Do you want to play again? (y/n): ";
+        cin >> playAgain;
+    } while (playAgain == 'y' || playAgain == 'Y');
+
+    rgethegtr
+    ffjf
+    456456
+    njdnjndj
+    ,dmn
+    12312j
+    SADFHDGF
+    DSDFGH
+    yao yap dhk
+
+
+    return 0;
+
+
+
+    
+
 }
