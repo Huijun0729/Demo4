@@ -49,11 +49,12 @@ void determineWinner(Choice playerChoice, Choice computerChoice) {
 
 int main() {
     srand(time(0));
-char playAgain;
+
+    char playAgain;
     do {
         Choice playerChoice = getPlayerChoice();
-        Choice computerChoice = getComputerChoice();sdfghjk
-        determineWinner(playerChoice, computerChoice);awsfdfgh
+        Choice computerChoice = getComputerChoice();
+        determineWinner(playerChoice, computerChoice);
 
         cout << "Do you want to play again? (y/n): ";
         cin >> playAgain;
