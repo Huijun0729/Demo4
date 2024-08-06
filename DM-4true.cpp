@@ -60,9 +60,17 @@ int main() {
         cin >> playAgain;
     } while (playAgain == 'y' || playAgain == 'Y');
 
+
+
     // Goodbye message when the user chooses not to play again
     if (playAgain == 'n' || playAgain == 'N') {
         cout << "Goodbye!" << endl;
     }
+
+     // Goodbye message when the user chooses not to play again
+    if (playAgain == 'n' || playAgain == 'N') {
+        cout << "Goodbye!" << endl;
+    }
+    
     return 0;
 }
