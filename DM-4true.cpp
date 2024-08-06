@@ -16,7 +16,7 @@ string getChoiceName(Choice choice) {
 }
 
 Choice getComputerChoice() {
-    return static_cast<Choice>(rand() % 3);sdfg
+    return static_cast<Choice>(rand() % 3);
 }
 
 Choice getPlayerChoice() {
@@ -48,7 +48,7 @@ void determineWinner(Choice playerChoice, Choice computerChoice) {
 }
 
 int main() {
-    srand(time(0));dfgfhg
+    srand(time(0));
 
     char playAgain;
     do {
@@ -66,46 +66,4 @@ int main() {
     }
 
     return 0;
-
-    return 0; 
-    
-    
-    do {
-        Choice playerChoice = getPlayerChoice();
-        Choice computerChoice = getComputerChoice();
-        determineWinner(playerChoice, computerChoice);
-
-        cout << "Do you want to play again? (y/n): ";
-        cin >> playAgain;
-    } while (playAgain == 'y' || playAgain == 'Y');
-
-    return 0;
-
-
-
-    do {
-        Choice playerChoice = getPlayerChoice();
-        Choice computerChoice = getComputerChoice();
-        determineWinner(playerChoice, computerChoice);
-
-        cout << "Do you want to play again? (y/n): ";
-        cin >> playAgain;
-    } while (playAgain == 'y' || playAgain == 'Y');
-
-     do {
-        Choice playerChoice = getPlayerChoice();
-        Choice computerChoice = getComputerChoice();
-        determineWinner(playerChoice, computerChoice);
-
-        cout << "Do you want to play again? (y/n): ";
-        cin >> playAgain;
-    } while (playAgain == 'y' || playAgain == 'Y');
-
-
-    return 0;
-
-
-
-    
-
 }
