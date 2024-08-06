@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 
+
 using namespace std;
 
 enum Choice { ROCK, PAPER, SCISSORS }
@@ -60,7 +61,12 @@ int main() {
         cin >> playAgain;
     } while (playAgain == 'y' || playAgain == 'Y');
 
+
+    // Goodbye message when the user chooses not to play again
+    if (playAgain == 'n' || playAgain == 'N') {
+        cout << "Goodbye!" << endl;;;
+    }
+
     return 0;
-
-
 }
+
