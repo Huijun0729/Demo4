@@ -48,7 +48,7 @@ void determineWinner(Choice playerChoice, Choice computerChoice) {
 }
 
 int main() {
-    srand(time(0));
+    srand(time(0));dfgfhg
 
     char playAgain;
     do {
