@@ -49,7 +49,8 @@ void determineWinner(Choice playerChoice, Choice computerChoice) {
 
 int main() {
     srand(time(0));
-char playAgain;
+
+    char playAgain;
     do {
         Choice playerChoice = getPlayerChoice();
         Choice computerChoice = getComputerChoice();
@@ -59,5 +60,17 @@ char playAgain;
         cin >> playAgain;
     } while (playAgain == 'y' || playAgain == 'Y');
 
+    
+    // Goodbye message when the user chooses not to play again
+    if (playAgain == 'n' || playAgain == 'N') {
+        cout << "Goodbye!" << endl;
+    }
+
     return 0;
+    134567890
+        45679
+
+
+    return 0;
+
 }
