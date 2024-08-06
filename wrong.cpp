@@ -16,7 +16,7 @@ string getChoiceName(Choice choice) {
 }
 
 Choice getComputerChoice() {
-    return static_cast<Choice>(rand() % 3);sdfg
+    return static_cast<Choice>(rand() % 3);
 }
 
 Choice getPlayerChoice() {
@@ -38,9 +38,9 @@ void determineWinner(Choice playerChoice, Choice computerChoice) {
 
     if (playerChoice == computerChoice) {
         cout << "It's a tie!" << endl;
-    } else if ((playerChoice == ROCK && computerChoice == SCISSORS) ||
-               (playerChoice == PAPER && computerChoice == ROCK) ||
-               (playerChoice == SCISSORS && computerChoice == PAPER)) {
+    } else if ((playerChoice == ROCK && computerChoice == PAPER) ||
+               (playerChoice == PAPER && computerChoice == SCISSORS) ||
+               (playerChoice == SCISSORS && computerChoice == ROCK)) {
         cout << "You win!" << endl;
     } else {
         cout << "You lose!" << endl;
@@ -48,9 +48,8 @@ void determineWinner(Choice playerChoice, Choice computerChoice) {
 }
 
 int main() {
-    srand(time(0));dfgfhg
-
-    char playAgain;
+    srand(time(0));
+char playAgain;
     do {
         Choice playerChoice = getPlayerChoice();
         Choice computerChoice = getComputerChoice();
@@ -66,56 +65,4 @@ int main() {
     }
 
     return 0;
-
-    return 0; 
-    
-    
-    do {
-        Choice playerChoice = getPlayerChoice();
-        Choice computerChoice = getComputerChoice();
-        determineWinner(playerChoice, computerChoice);
-
-        cout << "Do you want to play again? (y/n): ";
-        cin >> playAgain;
-    } while (playAgain == 'y' || playAgain == 'Y');
-
-    return 0;
-
-
-
-    do {
-        Choice playerChoice = getPlayerChoice();
-        Choice computerChoice = getComputerChoice();
-        determineWinner(playerChoice, computerChoice);
-
-        cout << "Do you want to play again? (y/n): ";
-        cin >> playAgain;
-    } while (playAgain == 'y' || playAgain == 'Y');
-
-     do {
-        Choice playerChoice = getPlayerChoice();
-        Choice computerChoice = getComputerChoice();
-        determineWinner(playerChoice, computerChoice);
-
-        cout << "Do you want to play again? (y/n): ";
-        cin >> playAgain;
-    } while (playAgain == 'y' || playAgain == 'Y');
-
-    rgethegtr
-    ffjf
-    456456
-    njdnjndj
-    ,dmn
-    12312j
-    SADFHDGF
-    DSDFGH
-    yao yap dhk
-
-
-    return 0;
-
-
-
-    
-
 }
