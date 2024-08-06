@@ -101,16 +101,6 @@ int main() {
         cin >> playAgain;
     } while (playAgain == 'y' || playAgain == 'Y');
 
-    rgethegtr
-    ffjf
-    456456
-    njdnjndj
-    ,dmn
-    12312j
-    SADFHDGF
-    DSDFGH
-    yao yap dhk
-
 
     return 0;
 
