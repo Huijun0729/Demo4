@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-z
+
 using namespace std;
 
 enum Choice { ROCK, PAPER, SCISSORS };
