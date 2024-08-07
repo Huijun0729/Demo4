@@ -2,9 +2,8 @@
 #include <cstdlib>
 #include <ctime>
 
-using namespace std;
 
-enum Choice { ROCK, PAPER, SCISSORS };
+
 
 string getChoiceName(Choice choice) {
     switch (choice) {
@@ -67,9 +66,6 @@ int main() {
     }
 
     return 0;hh
-    hhsdfghjkgf
-    dxcbjrfdc bnjugt
-    fdcvmkujyhtgfv bkigghvhc nb
-    ngx
+    cout << "hi" << endl;
 }
 
