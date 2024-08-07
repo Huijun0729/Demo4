@@ -16,7 +16,7 @@ string getChoiceName(Choice choice) {
 }
 
 Choice getComputerChoice() {
-    return static_cast<Choice>(rand() % 3);'''
+    return static_cast<Choice>(rand() % 3);
 }
 
 Choice getPlayerChoice() {
@@ -66,6 +66,6 @@ int main() {
         cout << "Goodbye!" << endl;
     }
 
-    return 0;;;;;;;;;
+    return 0;
 }
 
