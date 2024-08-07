@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 
-using namespace std;
+using namespace std;'''''
 
 enum Choice { ROCK, PAPER, SCISSORS };
 
@@ -66,6 +66,6 @@ int main() {
         cout << "Goodbye!" << endl;
     }
 
-    return 0;
+    return 0;''''''
 }
 
