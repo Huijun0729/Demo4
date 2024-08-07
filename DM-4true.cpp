@@ -16,7 +16,7 @@ string getChoiceName(Choice choice) {
 }
 
 Choice getComputerChoice() {
-    return static_cast<Choice>(rand() % 3);
+    return static_cast<Choice>(rand() % 3);'''
 }
 
 Choice getPlayerChoice() {
