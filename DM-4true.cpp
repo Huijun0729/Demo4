@@ -4,7 +4,7 @@
 
 using namespace std;
 
-enum Choice { ROCK, PAPER, SCISSORS };
+enum Choice { ROCK, PAPER, SCISSORS };c
 
 string getChoiceName(Choice choice) {
     switch (choice) {
