@@ -67,5 +67,10 @@ int main() {
     }
 
     return 0;
+
+    coufg
+        gcr
+    tyjf
+        dr
 }
 
