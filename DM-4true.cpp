@@ -2,39 +2,8 @@
 #include <cstdlib>
 #include <ctime>
 
-using namespace std;
 
-enum Choice { ROCK, PAPER, SCISSORS };
 
-string getChoiceName(Choice choice) {
-    switch (choice) {
-        case ROCK: return "Rock";
-        case PAPER: return "Paper";
-        case SCISSORS: return "Scissors";
-        default: return "";
-    }
-}
-
-Choice getComputerChoice() {
-    return static_cast<Choice>(rand() % 3);
-}
-
-Choice getPlayerChoice() {
-    int choice;
-    while (true) {
-        cout << "Enter your choice (0 for Rock, 1 for Paper, 2 for Scissors): ";
-        cin >> choice;
-        if (choice >= 0 && choice <= 2) {
-            return static_cast<Choice>(choice);
-        } else {
-            cout << "Invalid choice. Please enter 0, 1, or 2." << endl;
-        }
-    }
-}
-
-void determineWinner(Choice playerChoice, Choice computerChoice) {
-    cout << "You chose: " << getChoiceName(playerChoice) << endl;
-    cout << "Computer chose: " << getChoiceName(computerChoice) << endl;
 
     if (playerChoice == computerChoice) {
         cout << "It's a tie!" << endl;
@@ -68,4 +37,5 @@ int main() {
 
     return 0;;;;;
 }
+
 
